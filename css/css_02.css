@@ -1,0 +1,41 @@
+@charset "uft-8";
+body,ul,p,h1,h2,h3,h4,h5{margin:0;padding:0;}
+body{text-align:left;font-family:Microsoft Yahei; font-size:14px;background:#eee;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html, body{ height:100%; max-width:100%;margin: auto;}
+img{vertical-align: middle;width: 100%; border:0;}
+
+
+
+.success{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.icon{
+	float: left;
+	width: 25%;
+	margin:10% 0 10% 15%;
+}
+.text{
+	height:auto;
+	padding:10% 0 0 45%;
+}
+.text h2{
+	font-size: 72px;
+}
+.text p{
+	font-size: 36px;
+	color: #999;
+}
+.gold{
+	color: #00B9C5;
+}
+#footer{
+	width:94%;
+	position: fixed;
+	bottom: 30px ;
+	left: 3%;
+}
+#footer_02{
+	height: 160px;
+}

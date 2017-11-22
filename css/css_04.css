@@ -1,0 +1,224 @@
+@charset "utf-8";
+body,ul,li,p,h1,h2,h3,h4,h5{margin:0;padding:0;}
+body{text-align:left;font-family:Microsoft Yahei; font-size:12px;background:#ffffff;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html, body{ height:100%; max-width:100%;margin: auto;margin:0;padding:0;background-color: #eee;}
+ul,li{display:inline-block;}
+i,b{ font-style:normal;font-weight:normal;}
+img{border:none; margin:0px; padding:0px;}  
+img,input,select,textarea,label{vertical-align:middle;}
+a{color:#0000CC; text-decoration:none; outline:none;}  
+a:hover{text-shadow:1px 1px 0px #FFFFFF; text-decoration:none;}
+div{overflow:hidden;} 
+
+/*******************导航********************/
+.nav{
+	width: 100%;
+	height: 124px;
+	background-color: #00B9C5;
+}
+.return{
+	float:left;
+	margin:34px 0 0 40px;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.person{
+	color: #fff;
+	text-align: center;
+}
+.user{
+	font-size: 50px;
+	margin-top: 4px;
+}
+.number{
+	font-size: 36px;
+	margin-top: 6px;
+}
+
+/********************选项**********************/
+.third{
+	width:33.333333333333333333%;
+	height: 120px;
+	background-color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 120px;
+	color: #b2b2b2;
+	font-size: 46px;
+}
+.menuOn{
+	height: 114px;
+	color:#333;
+	border-bottom: 6px solid #00B9C5;
+}
+.menuNo{
+
+}
+
+/*********************日历************************/
+.mid{
+	width:100%;
+	height:180px;
+	line-height: 180px;
+}
+.month{
+	font-size: 60px;
+	color:#333;
+	margin-left: 60px;
+	float: left;
+}
+.month i{
+	font-size: 36px;
+	color: #999;
+}
+.calender{
+	float: right;
+	margin-right: 60px;
+}
+
+/**********************内容**********************/
+.container{
+	width: 100%;
+	overflow: hidden;
+}
+.content{
+	width: 100%;
+	background-color: #fff;
+}
+.content_none{
+	display: none;
+}
+.trans{
+	transition-property: transform,height;
+}
+/*tag1*/
+.amount{
+	width:88.88888888888888888888%;
+	height:156px;
+	line-height: 160px;
+	border-bottom: 4px solid #eee;
+	margin:0 auto;
+	font-size: 48px;
+}
+.amount span{
+	float: right;
+}
+.grade{
+	width: 88.88888888888888888888%;
+	font-size: 42px;
+	color: #666;
+	margin:60px auto 0;
+}
+.grade_mid{
+	margin-top: 80px;
+}
+.grade_last{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+.grade span{
+	float: right;
+}
+.name{
+	float: left;
+	width:200px;
+	font-size: 42px;
+}
+.space{
+	float: left;
+	width:55.55555555555555555555%;
+	/*width:62.5%;*/
+	height: 18px;
+	background-color: #eee;
+	border-radius: 10px;
+	margin:24px 0 0 0px;
+}
+.sales{
+	width: 20%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #ff7f7f;
+}
+.team{
+	width:20%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #ffea7f;
+}
+.extend{
+	width:20%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #ffbf80;
+}
+.reward{
+	width:20%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #73e573;
+}
+.other{
+	width:20%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #7fd4ff;
+}
+/*tag2*/
+.details{
+	width:88.88888888888888888888%;
+	height:198px;
+	border-bottom: 2px solid #999;
+	margin:0 auto;
+}
+.con_month{
+	float: left;
+	color: #b2b2b2;
+	font-size: 42px;
+	margin-top: 45px;
+}
+.con_month span{
+	font-size: 30px;
+}
+.icons{
+	float: left;
+	margin-left: 80px;
+	line-height:200px;
+}
+.con_amount{
+	float: left;
+	color:#333;
+	font-size: 54px;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+.con_amount span{
+	color:#999;
+	font-size: 40px;
+}
+.last{/*最后一个details*/
+	height: 200px;
+	border:none;
+}
+/*tag3*/
+.points{
+	width:100%;
+	background-color: #fff;
+	padding:60px 0;
+}
+.points div{
+	width:88.88888888888888888888%;
+	margin:0 auto;
+	font-size: 48px;
+}
+.points span{
+	float: right;
+}
+.added{
+	color:#333;
+	padding-bottom: 20px;
+}
+.exchange{
+	color: #b2b2b2;
+	padding-top:20px;
+}
