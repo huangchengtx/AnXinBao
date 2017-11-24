@@ -5,10 +5,10 @@ The services page on AnXinBao's WeChat
 
 [login.html](login.html)
 
+[information.html](information.html)
+
 [list.html](list.html)
 
 [achieve.html](achieve.html)
 
 [mine.html](mine.html)
-
-[information.html](information.html)

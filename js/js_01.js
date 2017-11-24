@@ -10,6 +10,32 @@ $(function(){
 
 
 
+// $(function () {
+// 	$(".third").click(function () {
+// 		var i = $(this).index();
+// 		$(this).addClass("menuOn").siblings().removeClass("menuOn");
+// 		console.log($("#content").eq(i));
+// 		$("#content").eq(i).removeClass("contentNo").siblings().removeClass("contentNo");
+//     });
+// });
+var tabsSwiper = new Swiper('.swiper-container',{
+    speed:500,
+    onSlideChangeStart: function(){
+        $(".tabs .active").removeClass('active');
+        $(".tabs a").eq(tabsSwiper.activeIndex).addClass('active');
+    }
+});
+
+$(".tabs a").on('touchstart mousedown',function(e){
+    e.preventDefault()
+    $(".tabs .active").removeClass('active');
+    $(this).addClass('active');
+    tabsSwiper.swipeTo($(this).index());
+});
+
+$(".tabs a").click(function(e){
+    e.preventDefault();
+});
 /*
 window.onload=function(){
 	var n = document.getElementsByTagName("span")[0];
@@ -29,19 +55,6 @@ window.onload=function(){
 		// console.log(div);
 		div.style.width=(s*100)+"%";
 	};
-}
-
-
-
-
-
-
-
-if(document.documentElement.clientHeight < document.documentElement.offsetHeight){
-	document.getElementById('footer').className = 'have';
-}
-else{
-    document.getElementById('footer').className = 'none';
 }
 
 

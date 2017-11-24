@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>个人信息</title>
 	<link href="css/css_04.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="js/js_01.js"></script>
+
 </head>
 <body>
 	<div class="nav">
@@ -18,10 +17,10 @@
     	</div>
     	<div style="clear:both;"></div>
     </div>
-    <div class="tab">
-    	<a href="#" class="third menuOn">月账单</a>
-    	<a href="#" class="third ">账单明细</a>
-    	<a href="#" class="third ">会员积分</a>
+    <div class="tabs">
+    	<a href="#" hidefocus="true" class="third active">月账单</a>
+    	<a href="#" hidefocus="true" class="third ">账单明细</a>
+    	<a href="#" hidefocus="true" class="third ">会员积分</a>
     </div>
     <div class="mid">
     	<div class="month">
@@ -34,10 +33,10 @@
     
 
 
-    <div class="container">
-        <div class="trans">
+    <div class="swiper-container">
+        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);transition-duration: 0s;">
             <!-- tag1 -->
-            <div class="content" id="1" >
+            <div class="swiper-slide">
             	<div class="amount">
             		总收入
             		<span>1,500.00</span>
@@ -80,7 +79,7 @@
             </div>
             <!-- tag1 -->
             <!-- tag2 -->
-            <div class="content_none" id="2">
+            <div class="swiper-slide">
                 <div class="amount">
                     总收入
                     <span>1,500.00</span>
@@ -153,7 +152,7 @@
             </div>
             <!-- tag2 -->
             <!-- tag3 -->
-            <div class="content_none points">
+            <div class="swiper-slide points">
                 <div class="added">
                     新增<span>460分</span>
                 </div>
@@ -165,6 +164,9 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script src="http://www.lanrenzhijia.com/ajaxjs/idangerous.swiper.min.js"></script>
+    <script type="text/javascript" src="js/js_01.js"></script>
 
 
 </body>
