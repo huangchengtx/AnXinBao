@@ -1,4 +1,4 @@
-# 安鑫宝微信端服务页面
+# 安鑫宝微信公众号
 The services page on AnXinBao's WeChat
 
 [guide.html](guide.html)
